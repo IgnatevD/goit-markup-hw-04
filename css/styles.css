@@ -370,7 +370,7 @@ p {
   margin-right: 30px;
 }
 
-.link-partner {
+.partner-li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,10 +380,40 @@ p {
   height: 92px;
 }
 
-.link-partner .one {
-  width: 41px;
-  height: 46, 7px;
+.partner-li:hover,
+.partner-li:focus {
+  border: 1px solid var(--accent-color);
 }
+
+.partner-li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+}
+
+.icon-partner {
+  width: inherit;
+  height: inherit;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  fill: var(--praimeri-text-color);
+}
+
+.icon-partner:hover,
+.icon-partner:focus {
+  fill: var(--accent-color);
+}
+.link-partner .shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)),
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 /* Футер*/
 .footer {
   background: #2f303a; /* Временный фон чтоб был виден текст*/
