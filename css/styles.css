@@ -152,6 +152,7 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   border-radius: 4px;
+  border: 0px;
   color: var(--white-text-color);
   background: var(--accent-color);
   font-weight: 700;
@@ -170,16 +171,23 @@ p {
 .button-sorting {
   padding: 6px 22px;
   border-radius: 4px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-  background: #f5f4fa;
+  border: 0px;
+  background-color: #f5f4fa;
   color: var(--titel-text-color);
   font-weight: 500;
   line-height: 1.6;
 }
-.sorting .button-sorting:hover,
-.sorting .button-sorting:focus {
+
+.button-sorting:hover,
+.button-sorting:focus {
   color: var(--white-text-color);
   background: var(--accent-color);
+}
+
+.button-sorting:hover,
+.button-sorting:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Главная страница сайта*/
@@ -530,7 +538,7 @@ p {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .sorting .item:not(:last-child) {
@@ -543,7 +551,6 @@ p {
 }
 .card .item {
   border: 1px solid #eeeeee;
-  margin-bottom: 30px;
 }
 
 .card .item:not(:nth-last-of-type(3n)) {
@@ -571,4 +578,16 @@ p {
   color: var(--praimeri-text-color);
   font-size: 16px;
   line-height: 1.9;
+}
+
+.card .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio .title {
+  visibility: hidden;
+  font-size: 0%;
+  padding: 0;
+  margin: 0;
 }
