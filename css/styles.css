@@ -139,10 +139,8 @@ p {
   margin-right: 10px;
 }
 
-.contacts-nav .icon-email:hover,
-.contacts-nav .icon-email:focus,
-.contacts-nav .icon-telefon:hover,
-.contacts-nav .icon-telefon:focus {
+.contacts-nav .link:hover > svg,
+.contacts-nav .link:hover > svg {
   fill: var(--accent-color);
 }
 
