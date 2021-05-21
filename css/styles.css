@@ -568,6 +568,7 @@ p {
 }
 .card .item {
   border: 1px solid #eeeeee;
+  margin-bottom: 30px;
 }
 
 .card .item:not(:nth-last-of-type(3n)) {
