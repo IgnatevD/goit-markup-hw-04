@@ -496,10 +496,11 @@ p {
   text-decoration: none;
 }
 
-.footer .link:hover,
+/* .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
-}
+} */
+
 .fotter-titel {
   color: var(--white-text-color);
   font-weight: bold;
