@@ -138,6 +138,11 @@ p {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
+.item-telefon > span,
+.item-email > span {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .icon-email {
   width: 16px;
